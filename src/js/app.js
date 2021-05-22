@@ -1,10 +1,5 @@
 // TODO: write your code here
-import sum from './basic';
-import { sort } from './user';
-
-console.log('worked');
-
-console.log(sum([1, 2]));
+import sort from './user';
 
 const heroes = [
   { name: 'мечник', health: 10 },
