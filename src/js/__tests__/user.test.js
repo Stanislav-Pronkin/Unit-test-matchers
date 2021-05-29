@@ -31,8 +31,8 @@ test('sort heroes', () => {
 
   const sortHero = sort(heroes);
 
-  const received = JSON.stringify(sortHero);
-  const expected = JSON.stringify(template);
+  //const received = JSON.stringify(sortHero);
+  //const expected = JSON.stringify(template);
 
-  expect(received).toBe(expected);
+  expect(sortHero).not.toBe(template);
 });
